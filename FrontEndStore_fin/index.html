@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,19 +8,50 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    
 </head>
+
 <body>
-    <header class="header">
-        <a href="index.html">
-            <img class="header__logo" src="img/logo.png" alt="Logotipo">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-logo" href="index.html"><img src="img/1.jpg" alt="logo" width="50px" height="50px">
         </a>
-    </header>
-
-    <nav class="navegacion">
-        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Tienda</a>
-        <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
-    </nav>
-
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Merchanadaicing
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Tshirts</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Pants</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Accesories</a></li>
+                </ul>
+              </li>
+             
+            </ul>
+            <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+      <div class="imagen-top">
+    <div class="imageA"><img src="img/g9.png" alt="HOME"></div>
+    </div>
     <main class="contenedor">
         <h1>Nuestros Productos</h1>
 
@@ -27,6 +59,8 @@
             <div class="producto">
                 <a href="producto.html">
                     <img class="producto__imagen" src="img/1.jpg" alt="imagen camisa">
+                   <div class="resize" ><img class="colab" class="producto__imagen" src="img/x.png" alt="imagen camisa"></div> 
+                   <div class="resize2"><img class="producto__imagen" src="img/g5.png" alt="imagen camisa"></div>
                     <div class="producto__informacion">
                         <p class="producto__nombre">VueJS</p>
                         <p class="producto__precio">$25</p>
@@ -36,6 +70,8 @@
             <div class="producto">
                 <a href="producto.html">
                     <img class="producto__imagen" src="img/2.jpg" alt="imagen camisa">
+                    <div class="resize" ><img class="colab" class="producto__imagen" src="img/x.png" alt="imagen camisa"></div> 
+                   <div class="resize2"><img class="producto__imagen" src="img/g5.png" alt="imagen camisa"></div>
                     <div class="producto__informacion">
                         <p class="producto__nombre">AngularJS</p>
                         <p class="producto__precio">$25</p>
@@ -45,6 +81,8 @@
             <div class="producto">
                 <a href="producto.html">
                     <img class="producto__imagen" src="img/3.jpg" alt="imagen camisa">
+                    <div class="resize" ><img class="colab" class="producto__imagen" src="img/x.png" alt="imagen camisa"></div> 
+                   <div class="resize2"><img class="producto__imagen" src="img/g5.png" alt="imagen camisa"></div>
                     <div class="producto__informacion">
                         <p class="producto__nombre">ReactJS</p>
                         <p class="producto__precio">$25</p>
@@ -54,6 +92,8 @@
             <div class="producto">
                 <a href="producto.html">
                     <img class="producto__imagen" src="img/4.jpg" alt="imagen camisa">
+                    <div class="resize" ><img class="colab" class="producto__imagen" src="img/x.png" alt="imagen camisa"></div> 
+                   <div class="resize2"><img class="producto__imagen" src="img/g4.png" alt="imagen camisa"></div>
                     <div class="producto__informacion">
                         <p class="producto__nombre">Redux</p>
                         <p class="producto__precio">$25</p>
@@ -63,6 +103,8 @@
             <div class="producto">
                 <a href="producto.html">
                     <img class="producto__imagen" src="img/5.jpg" alt="imagen camisa">
+                    <div class="resize" ><img class="colab" class="producto__imagen" src="img/x.png" alt="imagen camisa"></div> 
+                   <div class="resize2"><img class="producto__imagen" src="img/g5.png" alt="imagen camisa"></div>
                     <div class="producto__informacion">
                         <p class="producto__nombre">Node.js</p>
                         <p class="producto__precio">$25</p>
@@ -72,6 +114,8 @@
             <div class="producto">
                 <a href="producto.html">
                     <img class="producto__imagen" src="img/6.jpg" alt="imagen camisa">
+                    <div class="resize" ><img class="colab" class="producto__imagen" src="img/x.png" alt="imagen camisa"></div> 
+                   <div class="resize2"><img class="producto__imagen" src="img/g6.png" alt="imagen camisa"></div>
                     <div class="producto__informacion">
                         <p class="producto__nombre">SASS</p>
                         <p class="producto__precio">$25</p>
@@ -81,6 +125,8 @@
             <div class="producto">
                 <a href="producto.html">
                     <img class="producto__imagen" src="img/7.jpg" alt="imagen camisa">
+                    <div class="resize" ><img class="colab" class="producto__imagen" src="img/x.png" alt="imagen camisa"></div> 
+                   <div class="resize2"><img class="producto__imagen" src="img/g8.png" alt="imagen camisa"></div>
                     <div class="producto__informacion">
                         <p class="producto__nombre">HTML5</p>
                         <p class="producto__precio">$25</p>
@@ -90,6 +136,8 @@
             <div class="producto">
                 <a href="producto.html">
                     <img class="producto__imagen" src="img/8.jpg" alt="imagen camisa">
+                    <div class="resize" ><img class="colab" class="producto__imagen" src="img/x.png" alt="imagen camisa"></div> 
+                   <div class="resize2"><img class="producto__imagen" src="img/g9.png" alt="imagen camisa"></div>
                     <div class="producto__informacion">
                         <p class="producto__nombre">Github</p>
                         <p class="producto__precio">$25</p>
@@ -99,6 +147,8 @@
             <div class="producto">
                 <a href="producto.html">
                     <img class="producto__imagen" src="img/9.jpg" alt="imagen camisa">
+                    <div class="resize" ><img class="colab" class="producto__imagen" src="img/x.png" alt="imagen camisa"></div> 
+                   <div class="resize2"><img class="producto__imagen" src="img/g5.png" alt="imagen camisa"></div>
                     <div class="producto__informacion">
                         <p class="producto__nombre">BulmaCSS</p>
                         <p class="producto__precio">$25</p>
@@ -108,6 +158,8 @@
             <div class="producto">
                 <a href="producto.html">
                     <img class="producto__imagen" src="img/10.jpg" alt="imagen camisa">
+                    <div class="resize" ><img class="colab" class="producto__imagen" src="img/x.png" alt="imagen camisa"></div> 
+                   <div class="resize2"><img class="producto__imagen" src="img/g5.png" alt="imagen camisa"></div>
                     <div class="producto__informacion">
                         <p class="producto__nombre">TypeScript</p>
                         <p class="producto__precio">$25</p>
@@ -117,6 +169,8 @@
             <div class="producto">
                 <a href="producto.html">
                     <img class="producto__imagen" src="img/11.jpg" alt="imagen camisa">
+                    <div class="resize" ><img class="colab" class="producto__imagen" src="img/x.png" alt="imagen camisa"></div> 
+                   <div class="resize2"><img class="producto__imagen" src="img/g5.png" alt="imagen camisa"></div>
                     <div class="producto__informacion">
                         <p class="producto__nombre">Drupal</p>
                         <p class="producto__precio">$25</p>
@@ -126,6 +180,8 @@
             <div class="producto">
                 <a href="producto.html">
                     <img class="producto__imagen" src="img/12.jpg" alt="imagen camisa">
+                    <div class="resize" ><img class="colab" class="producto__imagen" src="img/x.png" alt="imagen camisa"></div> 
+                   <div class="resize2"><img class="producto__imagen" src="img/g5.png" alt="imagen camisa"></div>
                     <div class="producto__informacion">
                         <p class="producto__nombre">JavaScript</p>
                         <p class="producto__precio">$25</p>
@@ -135,6 +191,8 @@
             <div class="producto">
                 <a href="producto.html">
                     <img class="producto__imagen" src="img/13.jpg" alt="imagen camisa">
+                    <div class="resize" ><img class="colab" class="producto__imagen" src="img/x.png" alt="imagen camisa"></div> 
+                   <div class="resize2"><img class="producto__imagen" src="img/g5.png" alt="imagen camisa"></div>
                     <div class="producto__informacion">
                         <p class="producto__nombre">GraphQL</p>
                         <p class="producto__precio">$25</p>
@@ -144,6 +202,8 @@
             <div class="producto">
                 <a href="producto.html">
                     <img class="producto__imagen" src="img/14.jpg" alt="imagen camisa">
+                    <div class="resize" ><img class="colab" class="producto__imagen" src="img/x.png" alt="imagen camisa"></div> 
+                   <div class="resize2"><img class="producto__imagen" src="img/g5.png" alt="imagen camisa"></div>
                     <div class="producto__informacion">
                         <p class="producto__nombre">WordPress</p>
                         <p class="producto__precio">$25</p>
@@ -160,5 +220,8 @@
         <p class="footer__texto">Front End Store - Todos los derechos Reservados 2022.</p>
     </footer>
     
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
 </body>
 </html>
